@@ -33,3 +33,5 @@ nav_order: 3
 ## Package Architecture
 
 Domain logic under `pkg/splunk/` is organized by concern with a strict layered import direction. See [`pkg/splunk/README.md`](https://github.com/splunk/splunk-operator/blob/develop/pkg/splunk/README.md) for the full package layout, import rules, and guidance on where to put new code.
+
+<!-- external contribution: clarify architecture overview (CSPL-4681 process test) -->
